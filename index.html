@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/684/684240.png" type="image/x-icon">
+    <script defer src="calcu.js"></script>
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="calc-body">
+        <h1>Tip Calculator</h1>
+        <div class="calc-form">
+            <p>Enter the bill amount and tip percentage to calculate the total</p>
+            <!-- <form action=""> -->
+                <label for="bill">Bill Amount:</label><br>
+                <input type="number" name="bill" id="bill"><br>
+
+                <label for="tip">Tip Percentage:</label><br>
+                <input type="number" name="tip" id="tip"><br>
+
+                <input type="submit" onclick="c()" value="CALCULATE"> 
+
+            <!-- </form> -->
+
+            <p>Total: <span id="total"></span> </p>
+        </div>
+    </div>
+</body>
+</html>
